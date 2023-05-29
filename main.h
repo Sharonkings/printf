@@ -92,7 +92,7 @@ int print_reverse(va_list types, char buffer[],
 int print_rot13string(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
-/* write handle */
+/* width handle */
 int handle_write_char(char c, char buffer[],
 	int flags, int width, int precision, int size);
 int write_number(int is_positive, int ind, char buffer[],
@@ -114,4 +114,4 @@ int is_digit(char);
 long int convert_size_number(long int num, int size);
 long int convert_size_unsgnd(unsigned long int num, int size);
 
-#endif /* MAIN_H *
+#endif /* MAIN_H */
